@@ -1,0 +1,107 @@
+.spc__axis--x path {
+  display: none;
+}
+
+.spc__line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.spc__point {
+  stroke: none;
+  fill: #28556E;
+}
+
+.spc__excluded {
+  fill: gray;
+}
+
+.spc__limit {
+  stroke: #22919E;
+  stroke-dasharray: "5, 5";
+}
+
+.spc__MEAN_LINE {
+  stroke: #22919E;
+}
+
+.spc__hoverLine {
+  stroke: #BBB;
+}
+
+.spc__processLines {
+  stroke: #DDD;
+  fill: white;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: white;
+  font-family: sans-serif, arial;
+  font-size: 12px;
+}
+
+#spcContainer {
+  width: 960px;
+  height: 500px;
+}
+
+#chartContainer {
+  width: 100%;
+  height: 300px;
+}
+
+#spcLegend {
+  width: 100%;
+}
+
+#metaContainer {
+  height: 180px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#leftContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.leftItem {
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.button {
+	background: #00BDA6;
+	padding:10px;
+	font-size:12px;
+	text-decoration:none;
+	color:#fff;
+	border: 1px solid #00BDA6;
+	-webkit-user-select: none;
+}
+
+.button:hover {
+	background: #fff;
+	border: 1px solid #00BDA6;
+	color: #00BDA6;
+}
+
+.button:active {
+	background: #22919E;
+	border: 1px solid #22919E;
+	color: #FFF;
+}
